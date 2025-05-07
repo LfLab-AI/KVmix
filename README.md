@@ -84,7 +84,7 @@ python eval_longbench.py --model {model}
 ```
 
 ### Evaluate KVmix by lm_eval
-We support using lm_eval to evaluate KVmix performance, but you need to replace the huggingface model in lm-evaluation-harness with a model quantized using KVmix.
+We support using [lm_eval](https://github.com/EleutherAI/lm-evaluation-harness) to evaluate KVmix performance, but you need to replace the huggingface model in lm-evaluation-harness with a model quantized using KVmix.
 ```
 cd lm-evaluation-harness
 pip install -e .
