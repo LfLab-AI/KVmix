@@ -5,7 +5,7 @@
 
 This repository contains the implementation of KVmix, a novel gradient-guided mixed-precision quantization method for optimizing the Key-Value (KV) Cache in Large Language Models (LLMs). KVmix leverages gradient-based importance analysis to dynamically allocate quantization bits, ensuring higher precision for critical layers while aggressively compressing less significant ones. It also integrates dynamic critical context optimization and supports users to perform 1, 2, 3, and 4-bit mixed quantization.
 
-<img src = "KVmixfig/KVmix_profiler.png" align = "center" width="100%" hight="100%">
+<img src = "KVmixfig/KVmix profiler.png" align = "center" width="100%" hight="100%">
 
 ## Getting Started
 
