@@ -1,0 +1,11 @@
+{
+    "llama-7b": 4096,
+    "Llama-2-7b-chat-hf": 4096,
+    "Llama-2-7b-hf": 4096,
+    "Mistral-7B-v0.1": 8192,
+    "Mistral-7B-Instruct-v0.2": 31500,
+    "Mistral-7B-Instruct-v0.3": 4096,
+    "Llama-3.1-8b-hf": 4096,
+    "Meta-Llama-3-8B": 4096,
+    "Meta-Llama-3.1-8B": 8192
+}

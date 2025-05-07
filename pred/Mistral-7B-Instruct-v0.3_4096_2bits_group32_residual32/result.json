@@ -1,0 +1,12 @@
+{
+    "triviaqa": 83.58,
+    "repobench-p": 51.18,
+    "trec": 73.5,
+    "qasper": 34.36,
+    "2wikimqa": 34.84,
+    "lcc": 56.86,
+    "qmsum": 21.79,
+    "multifieldqa_en": 54.5,
+    "passage_retrieval_en": 32.0,
+    "gov_report": 32.52
+}

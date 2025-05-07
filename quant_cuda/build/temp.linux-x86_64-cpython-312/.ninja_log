@@ -1,0 +1,4 @@
+# ninja log v5
+1	27805	1746448593775565128	/home/dell/lf/lf/KVmix/quant_cuda/build/temp.linux-x86_64-cpython-312/csrc/pybind.o	ada0322b747f8086
+0	63543	1746448629503858538	/home/dell/lf/lf/KVmix/quant_cuda/build/temp.linux-x86_64-cpython-312/csrc/dequantization_gemv_cuda.o	308116b4ec46b1ea
+1	65573	1746448631529875176	/home/dell/lf/lf/KVmix/quant_cuda/build/temp.linux-x86_64-cpython-312/csrc/quantization_cuda.o	d4bdeb2e396d6d9
