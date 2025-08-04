@@ -9,10 +9,10 @@ from models.modeling_mistral_KVmix import MistralForCausalLM_KVmix
 from myprofileKV import profile_model
 import gc
 os.environ["WANDB_DISABLED"] = "true"
-# 默认配置参数
+# default config
 GROUP_SIZE = 32
 PATH_TO_YOUR_SAVE_DIR = './cached_models'
-config = MistralConfig.from_pretrained('/home/dell/lf/lf/model/Mistral-7B-Instruct-v0.3')
+config = MistralConfig.from_pretrained('/path/your_model/Mistral-7B-Instruct-v0.3')
 config.group_size = GROUP_SIZE
 config.use_flash = False
 CACHE_DIR = PATH_TO_YOUR_SAVE_DIR
@@ -23,7 +23,7 @@ def set_seed(args):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model_name_or_path", type=str, default='/home/dell/lf/lf/model/Mistral-7B-Instruct-v0.3')
+    parser.add_argument("--model_name_or_path", type=str, default='/path/your_model/Mistral-7B-Instruct-v0.3')
     parser.add_argument("--cache_dir", type=str, default=None)
     parser.add_argument("--max_new_tokens", type=int, default=8192)
     parser.add_argument("--pyramid_bsz", type=int, default=20)
