@@ -11,7 +11,7 @@ from models.modeling_llama import LlamaForCausalLM
 
 GROUP_SIZE = 32
 PATH_TO_YOUR_SAVE_DIR = './cached_models'
-config = LlamaConfig.from_pretrained('/home/dell/lf/lf/model/meta-llama/Llama-2-7b-hf')
+config = LlamaConfig.from_pretrained('/path/your_model/Llama-2-7b-hf')
 config.group_size = GROUP_SIZE
 config.use_flash = False
 CACHE_DIR = PATH_TO_YOUR_SAVE_DIR
@@ -22,7 +22,7 @@ def set_seed(args):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model_name_or_path", type=str, default='/home/dell/lf/lf/model/meta-llama/Llama-2-7b-hf')
+    parser.add_argument("--model_name_or_path", type=str, default='/path/your_model/Llama-2-7b-hf')
     parser.add_argument("--cache_dir", type=str, default=None)
     parser.add_argument("--max_new_tokens", type=int, default=1024)
     parser.add_argument("--KVmix_bsz", type=int, default=28)
