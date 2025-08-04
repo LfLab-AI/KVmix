@@ -91,8 +91,5 @@ pip install -e .
 sh eval.sh
 ```
 
-####
-Please contact us to cite our work
-
 
 
