@@ -116,7 +116,7 @@ if __name__ == '__main__':
     for dataset in datasets:
         print(f"Processing dataset: {dataset}")
         
-        data = load_dataset('/home/dell/lf/lf/dataset/LongBench/', dataset, split='test')
+        data = load_dataset('path/dataset/LongBench/', dataset, split='test')
         
         # Randomly select number prompt from the data set
         number_random = 10
