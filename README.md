@@ -7,7 +7,7 @@ This repository contains the implementation of KVmix, a novel gradient-guided mi
 
 <img src = "KVmixfig/KVmix profiler.png" align = "center" width="100%" hight="100%">
 
- - [ ] **Our work has been accepted by AAAI 2026 (oral!).**
+# - [ ] **Our work has been accepted by AAAI 2026 (oral!).**
 
 ## Getting Started
 
